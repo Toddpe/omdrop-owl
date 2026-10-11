@@ -22,7 +22,7 @@ the machine is visible ([why](#exclusive-mode)).
 |---|---|---|---|
 | MediaTek MT7925 | `mt7925e` | ✅ Shared | Framework 13, `14c3:0717`, Omarchy 4.0.4 (kernel 7.2.5) |
 | Intel AX201 | `iwlwifi` | ✅ Exclusive | Ubuntu 24.04 (kernel 6.8); CachyOS (kernel 7.2.9) |
-| Intel AX211 | `iwlwifi` | ✅ Exclusive | ThinkPad X1, `8086:51f1`, Ubuntu 26.04 (kernel 7.0); XPS 9320, `8086:51f0`, Arch (kernel 7.2.3) |
+| Intel AX211 | `iwlwifi` | ✅ Exclusive | ThinkPad X1, `8086:51f1`, Ubuntu 26.04 (kernel 7.0); XPS 9320, `8086:51f0`, Arch (kernel 7.2.3); Legion Pro 7 16IRX8H, `8086:7a70`, Omarchy 4.0.4 (kernel 7.2.3) |
 | Intel AX200 | `iwlwifi` | ❓ Exclusive untested | — |
 
 ✅ means both directions work. Shared mode doesn't work on any Intel card
